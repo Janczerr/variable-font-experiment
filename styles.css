@@ -1,0 +1,19 @@
+#logo {
+    font-family: "Literata", serif;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.weight {
+    transition: font-weight 0.1s ease;
+}
+
+.weight:hover {
+    font-weight: 700;
+}
+
+.center {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
