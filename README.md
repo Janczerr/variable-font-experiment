@@ -1,1 +1,1 @@
-![Preview](https://github.com/Janczerr/variable-font-experiment/blob/main/gi.gif)
+![Preview](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdThqem9zbzc4cHJhbHd6ZmpnZDF0Z3hkMWYxZWthc3UxamE5d240OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KmV26pZJbMwmATlYbs/giphy.gif)
