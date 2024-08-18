@@ -1,17 +1,18 @@
-let logo = document.getElementById("logo");
-let logoLength = logo.textContent.length;
+let text = document.getElementById("text");
 
-let i = 0;
+function textToSpans(element, cssClass) {
+    let i = 0;
+    let innerSpans = "";
 
-let innerSpans = "";
+    while (i < element.textContent.length){
+        innerSpans = innerSpans + '<span class="'+ cssClass + '">' + element.textContent.charAt(i) + "</span>";
+        i++;
+    }
 
-//Rozdzielanie textu na spany
-while (i < logoLength){
-    innerSpans = innerSpans + "<span class=weight>" + logo.textContent.charAt(i) + "</span>";
-    i++;
+    element.innerHTML = innerSpans;
 }
 
-logo.innerHTML = innerSpans;
+textToSpans(text, 'weight');
 
 let spans = Array.from(document.getElementsByClassName("weight"));
 
